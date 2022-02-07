@@ -1,7 +1,7 @@
 apiVersion: v1
 name: MicroService3
 description: AI engine for video processing
-version: 1.0.1
+version: 1.0.3
 keywords:
   - microService3
   - nextensio
