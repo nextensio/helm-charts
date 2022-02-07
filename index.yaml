@@ -1,0 +1,91 @@
+apiVersion: v1
+entries:
+  microservice1:
+  - apiVersion: v1
+    appVersion: 1.0.7
+    created: "2022-02-07T19:36:37.246117839Z"
+    description: Web Frontend for video processing
+    digest: 273c35450ef5746b3dd8e447c10146b07d49759d8958bbe90b03845f34134832
+    home: https://github.com/nextensio/helm-charts/demos_platform9_microservice1
+    keywords:
+    - microservice1
+    - nextensio
+    - platform9
+    maintainers:
+    - email: support@nextensio.com
+      name: nextensio
+    name: microservice1
+    urls:
+    - https://github.com/nextensio/helm-charts/releases/download/microservice1-1.0.7/microservice1-1.0.7.tgz
+    version: 1.0.7
+  microservice2:
+  - apiVersion: v1
+    appVersion: 1.0.7
+    created: "2022-02-07T19:36:37.441430752Z"
+    description: Database backed for video processing
+    digest: 019429545c5e528e4266bf3cd29da3966619bb33a4db7f67d7f11b18c379936c
+    home: https://github.com/nextensio/helm-charts/demos_platform9_microservice2
+    keywords:
+    - microservice2
+    - nextensio
+    - platform9
+    maintainers:
+    - email: support@nextensio.com
+      name: nextensio
+    name: microservice2
+    urls:
+    - https://github.com/nextensio/helm-charts/releases/download/microservice2-1.0.7/microservice2-1.0.7.tgz
+    version: 1.0.7
+  microservice3:
+  - apiVersion: v1
+    appVersion: 1.0.7
+    created: "2022-02-07T19:36:37.623022099Z"
+    description: AI engine for video processing
+    digest: 2a36af17325e62a01854f469282f567ff74c49fe7f1fbea8338ecd58eab737cc
+    home: https://github.com/nextensio/helm-charts/demos_platform9_microservice3
+    keywords:
+    - microservice3
+    - nextensio
+    - platform9
+    maintainers:
+    - email: support@nextensio.com
+      name: nextensio
+    name: microservice3
+    urls:
+    - https://github.com/nextensio/helm-charts/releases/download/microservice3-1.0.7/microservice3-1.0.7.tgz
+    version: 1.0.7
+  nextensioextenderaws:
+  - apiVersion: v1
+    appVersion: 1.0.7
+    created: "2022-02-07T19:36:37.799523062Z"
+    description: nextensio Cloud Extender
+    digest: cd5afce0f2368cc7ddd15e3022125ac243f4fd190376f2b53cbf8f5db3574e4a
+    home: https://github.com/nextensio/helm-charts/demos_platform9_nextensio
+    keywords:
+    - nextensio
+    - platform9
+    maintainers:
+    - email: support@nextensio.com
+      name: nextensio
+    name: nextensioextenderaws
+    urls:
+    - https://github.com/nextensio/helm-charts/releases/download/nextensioextenderaws-1.0.7/nextensioextenderaws-1.0.7.tgz
+    version: 1.0.7
+  nextensioextenderzure:
+  - apiVersion: v1
+    appVersion: 1.0.7
+    created: "2022-02-07T19:36:37.985061027Z"
+    description: nextensio Cloud Extender
+    digest: 56b9766fe593740363460a0f0205b08ca601ac7df60ec1a4033f875089e2a3b7
+    home: https://github.com/nextensio/helm-charts/demos_platform9_nextensio
+    keywords:
+    - nextensio
+    - platform9
+    maintainers:
+    - email: support@nextensio.com
+      name: nextensio
+    name: nextensioextenderzure
+    urls:
+    - https://github.com/nextensio/helm-charts/releases/download/nextensioextenderzure-1.0.7/nextensioextenderzure-1.0.7.tgz
+    version: 1.0.7
+generated: "2022-02-07T19:36:37.985070527Z"
