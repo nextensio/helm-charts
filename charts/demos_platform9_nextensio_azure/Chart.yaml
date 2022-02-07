@@ -1,0 +1,11 @@
+apiVersion: v1
+name: NextensioExtender
+description: Nextensio Cloud Extender
+version: 1.0.0
+keywords:
+  - nextensio
+  - platform9
+home: https://github.com/nextensio/helm-charts/demos_platform9_nextensio
+maintainers:
+- name: Nextensio
+  email: support@nextensio.com

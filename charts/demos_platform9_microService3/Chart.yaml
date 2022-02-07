@@ -6,7 +6,7 @@ keywords:
   - microService3
   - nextensio
   - platform9
-home: https://github.com/nextensio/helm-charts/demos/platform9/microService3
+home: https://github.com/nextensio/helm-charts/demos_platform9_microService3
 maintainers:
 - name: Nextensio
   email: support@nextensio.com

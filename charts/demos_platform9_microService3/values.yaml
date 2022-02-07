@@ -1,7 +1,7 @@
 kubernetes:
   host: https://kubernetes.default
 
-microService1:
+microService3:
   namespace: default
   image:
     name: gopakumarce/gillete
