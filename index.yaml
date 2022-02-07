@@ -115,4 +115,36 @@ entries:
     urls:
     - https://github.com/nextensio/helm-charts/releases/download/NextensioExtender-1.0.0/NextensioExtender-1.0.0.tgz
     version: 1.0.0
-generated: "2022-02-07T17:27:14.548247994Z"
+  NextensioExtenderAWS:
+  - apiVersion: v1
+    created: "2022-02-07T17:31:29.554468721Z"
+    description: Nextensio Cloud Extender
+    digest: 8a7f73f3028d394918da8852b07d9ae68bef7dbd3c03a99cfa7ce98b78234979
+    home: https://github.com/nextensio/helm-charts/demos_platform9_nextensio
+    keywords:
+    - nextensio
+    - platform9
+    maintainers:
+    - email: support@nextensio.com
+      name: Nextensio
+    name: NextensioExtenderAWS
+    urls:
+    - https://github.com/nextensio/helm-charts/releases/download/NextensioExtenderAWS-1.0.1/NextensioExtenderAWS-1.0.1.tgz
+    version: 1.0.1
+  NextensioExtenderAzure:
+  - apiVersion: v1
+    created: "2022-02-07T17:31:29.669353159Z"
+    description: Nextensio Cloud Extender
+    digest: 8ac56259f397e7d781d9c596b21b7fefa6ff9f1c784794d5fdc1bef85adae6f4
+    home: https://github.com/nextensio/helm-charts/demos_platform9_nextensio
+    keywords:
+    - nextensio
+    - platform9
+    maintainers:
+    - email: support@nextensio.com
+      name: Nextensio
+    name: NextensioExtenderAzure
+    urls:
+    - https://github.com/nextensio/helm-charts/releases/download/NextensioExtenderAzure-1.0.1/NextensioExtenderAzure-1.0.1.tgz
+    version: 1.0.1
+generated: "2022-02-07T17:31:29.669370759Z"
