@@ -1,0 +1,32 @@
+---
+apiVersion: v1
+kind: List
+items:
+- apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    labels:
+      app: {{ template "fullname" . }}
+      chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
+      release: {{ .Release.Name | quote }}
+      heritage: {{ .Release.Service | quote }}
+      version: {{ .Chart.Version }}
+    name: microService2
+  spec:
+    replicas: 1
+    selector:
+      matchLabels:
+        app: {{ template "fullname" . }}
+    template:
+      metadata:
+        labels:
+          app: {{ template "fullname" . }}
+          chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
+          release: {{ .Release.Name | quote }}
+          heritage: {{ .Release.Service | quote }}
+          version: 1.0.0
+      spec:
+        containers:
+        - image: "{{ .Values.microService2.image.name }}:{{ .Values.microService2.image.tag }}"
+          imagePullPolicy: {{ .Values.microService2.image.pullPolicy }}
+          name: microService2

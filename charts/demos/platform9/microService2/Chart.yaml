@@ -1,0 +1,12 @@
+apiVersion: v1
+name: MicroService2
+description: Database backed for video processing
+version: 1.0.0
+keywords:
+  - microService2
+  - nextensio
+  - platform9
+home: https://github.com/nextensio/helm-charts/demos/platform9/microService2
+maintainers:
+- name: Nextensio
+  email: support@nextensio.com
