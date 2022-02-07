@@ -12,7 +12,7 @@ items:
       release: {{ .Release.Name | quote }}
       heritage: {{ .Release.Service | quote }}
       version: 1.0.0
-    name: db.gillette.enelx.com
+    name: db-service
   spec:
     type: NodePort
     selector:
