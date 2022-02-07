@@ -1,0 +1,9 @@
+kubernetes:
+  host: https://kubernetes.default
+
+helloworld:
+  namespace: default
+  image:
+    name: gopakumarce/gillete:server
+    tag: latest
+    pullPolicy: Always
