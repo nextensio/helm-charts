@@ -4,10 +4,10 @@ description: AI engine for video processing
 version: 1.0.4
 appVersion: "1.0.4"
 keywords:
-  - microService3
+  - microservice3
   - nextensio
   - platform9
-home: https://github.com/nextensio/helm-charts/demos_platform9_microService3
+home: https://github.com/nextensio/helm-charts/demos_platform9_microservice3
 maintainers:
-- name: Nextensio
+- name: nextensio
   email: support@nextensio.com

@@ -11,7 +11,7 @@ items:
       release: {{ .Release.Name | quote }}
       heritage: {{ .Release.Service | quote }}
       version: {{ .Chart.Version }}
-    name: microService3
+    name: microservice1
   spec:
     replicas: 1
     selector:
@@ -27,6 +27,6 @@ items:
           version: 1.0.0
       spec:
         containers:
-        - image: "{{ .Values.microService3.image.name }}:{{ .Values.microService3.image.tag }}"
-          imagePullPolicy: {{ .Values.microService3.image.pullPolicy }}
-          name: microService3
+        - image: "{{ .Values.microservice1.image.name }}:{{ .Values.microservice1.image.tag }}"
+          imagePullPolicy: {{ .Values.microservice1.image.pullPolicy }}
+          name: microservice1

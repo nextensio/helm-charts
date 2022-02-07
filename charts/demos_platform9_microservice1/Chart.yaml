@@ -4,10 +4,10 @@ description: Web Frontend for video processing
 version: 1.0.4
 appVersion: "1.0.4"
 keywords:
-  - microService1
+  - microservice1
   - nextensio
   - platform9
-home: https://github.com/nextensio/helm-charts/demos_platform9_microService1
+home: https://github.com/nextensio/helm-charts/demos_platform9_microservice1
 maintainers:
-- name: Nextensio
+- name: nextensio
   email: support@nextensio.com
