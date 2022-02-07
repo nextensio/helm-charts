@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  MicroService1:
+  - apiVersion: v1
+    created: "2022-02-07T16:46:00.834928415Z"
+    description: Web Frontend for video processing
+    digest: 9ec1e9048bd07224857ffd0b394c17909312f516d875979234d31097ce4db8ba
+    home: https://github.com/nextensio/helm-charts/demos/platform9/microService1
+    keywords:
+    - microService1
+    - nextensio
+    - platform9
+    maintainers:
+    - email: support@nextensio.com
+      name: Nextensio
+    name: MicroService1
+    urls:
+    - https://github.com/nextensio/helm-charts/releases/download/MicroService1-1.0.0/MicroService1-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-02-07T16:46:00.834935015Z"
