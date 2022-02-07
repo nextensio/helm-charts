@@ -25,6 +25,6 @@ items:
         - image: "{{ .Values.nextensio.image.name }}:{{ .Values.nextensio.image.tag }}"
           imagePullPolicy: {{ .Values.nextensio.image.pullPolicy }}
           name: nextensio
-        env:
-          - name: EXTENDER_KEY
-            value: "{{ .Values.nextensio.image.key }}"
+          env:
+            - name: EXTENDER_KEY
+              value: "{{ .Values.nextensio.image.key }}"
