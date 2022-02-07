@@ -2,6 +2,22 @@ apiVersion: v1
 entries:
   MicroService1:
   - apiVersion: v1
+    created: "2022-02-07T17:27:14.009843326Z"
+    description: Web Frontend for video processing
+    digest: 3dfca7e906fca184f5c36b82bf301abd16ac9e60c130fc1a8a6f306edc1b0949
+    home: https://github.com/nextensio/helm-charts/demos_platform9_microService1
+    keywords:
+    - microService1
+    - nextensio
+    - platform9
+    maintainers:
+    - email: support@nextensio.com
+      name: Nextensio
+    name: MicroService1
+    urls:
+    - https://github.com/nextensio/helm-charts/releases/download/MicroService1-1.0.1/MicroService1-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
     created: "2022-02-07T16:46:00.834928415Z"
     description: Web Frontend for video processing
     digest: 9ec1e9048bd07224857ffd0b394c17909312f516d875979234d31097ce4db8ba
@@ -18,6 +34,22 @@ entries:
     - https://github.com/nextensio/helm-charts/releases/download/MicroService1-1.0.0/MicroService1-1.0.0.tgz
     version: 1.0.0
   MicroService2:
+  - apiVersion: v1
+    created: "2022-02-07T17:27:14.190360296Z"
+    description: Database backed for video processing
+    digest: 18b0ca13becada28e853b1f9cb89775b5c08e03c6c35ce9941622efcbcf556c9
+    home: https://github.com/nextensio/helm-charts/demos_platform9_microService2
+    keywords:
+    - microService2
+    - nextensio
+    - platform9
+    maintainers:
+    - email: support@nextensio.com
+      name: Nextensio
+    name: MicroService2
+    urls:
+    - https://github.com/nextensio/helm-charts/releases/download/MicroService2-1.0.1/MicroService2-1.0.1.tgz
+    version: 1.0.1
   - apiVersion: v1
     created: "2022-02-07T16:49:11.840779467Z"
     description: Database backed for video processing
@@ -36,6 +68,22 @@ entries:
     version: 1.0.0
   MicroService3:
   - apiVersion: v1
+    created: "2022-02-07T17:27:14.363790869Z"
+    description: AI engine for video processing
+    digest: 8aa33a4e932db22ceba7921f27bbe1515a4ce413488cd864de1c75fda47e6cb4
+    home: https://github.com/nextensio/helm-charts/demos_platform9_microService3
+    keywords:
+    - microService3
+    - nextensio
+    - platform9
+    maintainers:
+    - email: support@nextensio.com
+      name: Nextensio
+    name: MicroService3
+    urls:
+    - https://github.com/nextensio/helm-charts/releases/download/MicroService3-1.0.1/MicroService3-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
     created: "2022-02-07T16:49:11.975480175Z"
     description: AI engine for video processing
     digest: da38e3b182c0bf0e034ebfc0be841347f4d917ebc072d066d4bdf86acb5b12e8
@@ -51,4 +99,20 @@ entries:
     urls:
     - https://github.com/nextensio/helm-charts/releases/download/MicroService3-1.0.0/MicroService3-1.0.0.tgz
     version: 1.0.0
-generated: "2022-02-07T16:49:11.975493176Z"
+  NextensioExtender:
+  - apiVersion: v1
+    created: "2022-02-07T17:27:14.548234193Z"
+    description: Nextensio Cloud Extender
+    digest: f827dcf38105f97495fef21a0a5a45e1fc651476bf862780c653ecf72bb58e35
+    home: https://github.com/nextensio/helm-charts/demos_platform9_nextensio
+    keywords:
+    - nextensio
+    - platform9
+    maintainers:
+    - email: support@nextensio.com
+      name: Nextensio
+    name: NextensioExtender
+    urls:
+    - https://github.com/nextensio/helm-charts/releases/download/NextensioExtender-1.0.0/NextensioExtender-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-02-07T17:27:14.548247994Z"
