@@ -56,6 +56,22 @@ entries:
     version: 1.0.10
   nextensioextenderaws:
   - apiVersion: v1
+    appVersion: 1.0.11
+    created: "2022-02-07T21:20:53.872894076Z"
+    description: nextensio Cloud Extender
+    digest: 7eff713b44c62127c1594eacc064cc3179be72f37ef51208296190b0cde7b76c
+    home: https://github.com/nextensio/helm-charts/demos_platform9_nextensio
+    keywords:
+    - nextensio
+    - platform9
+    maintainers:
+    - email: support@nextensio.com
+      name: nextensio
+    name: nextensioextenderaws
+    urls:
+    - https://github.com/nextensio/helm-charts/releases/download/nextensioextenderaws-1.0.11/nextensioextenderaws-1.0.11.tgz
+    version: 1.0.11
+  - apiVersion: v1
     appVersion: 1.0.10
     created: "2022-02-07T20:51:22.271257148Z"
     description: nextensio Cloud Extender
@@ -73,6 +89,22 @@ entries:
     version: 1.0.10
   nextensioextenderzure:
   - apiVersion: v1
+    appVersion: 1.0.11
+    created: "2022-02-07T21:20:54.039987651Z"
+    description: nextensio Cloud Extender
+    digest: 6a066d78c686e740b79d1dff9d56a2423360d124f6a12d9dc2c531f2d1843a6d
+    home: https://github.com/nextensio/helm-charts/demos_platform9_nextensio
+    keywords:
+    - nextensio
+    - platform9
+    maintainers:
+    - email: support@nextensio.com
+      name: nextensio
+    name: nextensioextenderzure
+    urls:
+    - https://github.com/nextensio/helm-charts/releases/download/nextensioextenderzure-1.0.11/nextensioextenderzure-1.0.11.tgz
+    version: 1.0.11
+  - apiVersion: v1
     appVersion: 1.0.10
     created: "2022-02-07T20:51:22.448535643Z"
     description: nextensio Cloud Extender
@@ -88,4 +120,4 @@ entries:
     urls:
     - https://github.com/nextensio/helm-charts/releases/download/nextensioextenderzure-1.0.10/nextensioextenderzure-1.0.10.tgz
     version: 1.0.10
-generated: "2022-02-07T20:51:22.448541643Z"
+generated: "2022-02-07T21:20:54.040004251Z"
