@@ -8,8 +8,6 @@ items:
     labels:
       app: {{ template "fullname" . }}
       chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
-      release: {{ .Release.Name | quote }}
-      heritage: {{ .Release.Service | quote }}
       version: {{ .Chart.Version }}
     name: microservice2
   spec:
@@ -22,9 +20,6 @@ items:
         labels:
           app: {{ template "fullname" . }}
           chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
-          release: {{ .Release.Name | quote }}
-          heritage: {{ .Release.Service | quote }}
-          version: 1.0.0
       spec:
         containers:
         - image: "{{ .Values.microservice2.image.name }}:{{ .Values.microservice2.image.tag }}"

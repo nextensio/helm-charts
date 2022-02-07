@@ -9,7 +9,6 @@ items:
       app: {{ template "fullname" . }}
       chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
       release: {{ .Release.Name | quote }}
-      heritage: {{ .Release.Service | quote }}
       version: {{ .Chart.Version }}
     name: nextensio
   spec:
@@ -22,9 +21,6 @@ items:
         labels:
           app: {{ template "fullname" . }}
           chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
-          release: {{ .Release.Name | quote }}
-          heritage: {{ .Release.Service | quote }}
-          version: 1.0.0
       spec:
         containers:
         - image: "{{ .Values.nextensio.image.name }}:{{ .Values.nextensio.image.tag }}"
