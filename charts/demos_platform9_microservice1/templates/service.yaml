@@ -9,20 +9,17 @@ items:
       expose: "true"
       app: {{ template "fullname" . }}
       chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
-      release: {{ .Release.Name | quote }}
-      heritage: {{ .Release.Service | quote }}
-      version: 1.0.0
     name: monitor-service
   spec:
     type: NodePort
     selector:
       app: {{ template "fullname" . }}
     ports:
-    - name: http
+    - name: http-video
       port: 80
       protocol: TCP
       targetPort: 80
-    - name: http
+    - name: http-websocket
       port: 8080
       protocol: TCP
       targetPort: 8080

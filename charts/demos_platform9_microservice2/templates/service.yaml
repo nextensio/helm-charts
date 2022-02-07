@@ -9,9 +9,6 @@ items:
       expose: "true"
       app: {{ template "fullname" . }}
       chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
-      release: {{ .Release.Name | quote }}
-      heritage: {{ .Release.Service | quote }}
-      version: 1.0.0
     name: db-service
   spec:
     type: NodePort

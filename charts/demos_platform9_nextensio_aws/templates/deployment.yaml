@@ -8,7 +8,6 @@ items:
     labels:
       app: {{ template "fullname" . }}
       chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
-      release: {{ .Release.Name | quote }}
       version: {{ .Chart.Version }}
     name: nextensio
   spec:
