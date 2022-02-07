@@ -28,3 +28,5 @@ items:
           env:
             - name: EXTENDER_KEY
               value: "{{ .Values.nextensio.image.key }}"
+            - name: GATEWAY_NAME
+              value: "gatewaylnnj1.nextensio.net"
