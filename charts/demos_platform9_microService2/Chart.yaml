@@ -1,8 +1,8 @@
 apiVersion: v1
 name: MicroService2
 description: Database backed for video processing
-version: 1.0.3
-appVersion: "1.0.3"
+version: 1.0.4
+appVersion: "1.0.4"
 keywords:
   - microService2
   - nextensio
