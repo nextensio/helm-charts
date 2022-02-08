@@ -1,8 +1,8 @@
 apiVersion: v2
 name: nextensioextenderaws
 description: nextensio Cloud Extender
-version: 1.0.15
-appVersion: "1.0.15"
+version: 1.0.16
+appVersion: "1.0.16"
 keywords:
   - nextensio
   - platform9
