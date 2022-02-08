@@ -1,8 +1,8 @@
 apiVersion: v2
 name: nextensioextenderzure
 description: nextensio Cloud Extender
-version: 1.0.17
-appVersion: "1.0.17"
+version: 1.0.18
+appVersion: 1.0.18
 keywords:
   - nextensio
   - platform9
@@ -10,3 +10,5 @@ home: https://github.com/nextensio/helm-charts/demos_platform9_nextensio
 maintainers:
 - name: nextensio
   email: support@nextensio.com
+type: application
+kubeVersion: ">=1.16.0-0"

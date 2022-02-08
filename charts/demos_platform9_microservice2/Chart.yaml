@@ -1,8 +1,8 @@
 apiVersion: v2
 name: microservice2
 description: Database backed for video processing
-version: 1.0.17
-appVersion: "1.0.17"
+version: 1.0.18
+appVersion: 1.0.18
 keywords:
   - microservice2
   - nextensio
@@ -11,3 +11,5 @@ home: https://github.com/nextensio/helm-charts/demos_platform9_microservice2
 maintainers:
 - name: nextensio
   email: support@nextensio.com
+type: application
+kubeVersion: ">=1.16.0-0"
