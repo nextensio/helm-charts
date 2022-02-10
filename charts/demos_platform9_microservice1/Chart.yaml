@@ -1,8 +1,8 @@
 apiVersion: v2
 name: microservice1
 description: Web Frontend for video processing
-version: 1.0.18
-appVersion: 1.0.18
+version: 1.0.19
+appVersion: 1.0.19
 keywords:
   - microservice1
   - nextensio
